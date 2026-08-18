@@ -1,73 +1,38 @@
-# Welcome to your Lovable project
+# Simply Install
 
-## Project info
+A minimal React interface prototype for exploring a focused installation flow.
 
-**URL**: https://lovable.dev/projects/dd846fd5-864a-4119-a160-550718d84089
+## Overview
 
-## How can I edit this code?
+Simply Install is a deliberately lightweight frontend workspace built to iterate on a clean installation-oriented user experience. Its compact structure makes it suitable for testing layout, navigation, and component patterns before connecting a full installation backend.
 
-There are several ways of editing your application.
+## Technology
 
-**Use Lovable**
+- React 18 and TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui components
+- Lucide React and date-fns utilities
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dd846fd5-864a-4119-a160-550718d84089) and start prompting.
+## Local development
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Project structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The main experience is implemented in `src/pages/Index.tsx`, with shared application styling in `src/App.css` and `src/index.css`.
 
-**Use GitHub Codespaces**
+## Status
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This repository is an early interface prototype. It is intentionally kept small and is a candidate for future expansion with validation, installation tasks, and backend integration.
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
+No license has been declared yet. Add a license before accepting external contributions or redistributing the project.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Author
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dd846fd5-864a-4119-a160-550718d84089) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Bilel JM** — [GitHub](https://github.com/bilel11111)
